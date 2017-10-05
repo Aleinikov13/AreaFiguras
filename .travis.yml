@@ -10,7 +10,7 @@ install:
 before_script:
   - "autopep8 -ir *"
 
-  - "flake8 --max-complexity=10 --exclude=*.txt,*.md,*.pyc"
+  - "flake8 --max-complexity=10 --exclude=*.txt,*.md,*.pyc,steps.py,*.feature *"
 
 
 script:
