@@ -3,7 +3,7 @@ Luis Leyva
 Johan Longoria
 """
 class AreaFiguras():
-    
+    #
     def __init__(self):
         self.resultado = 0
 
